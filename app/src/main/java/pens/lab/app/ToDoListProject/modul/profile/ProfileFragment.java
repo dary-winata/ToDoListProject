@@ -1,20 +1,15 @@
 package pens.lab.app.belajaractivity.modul.profile;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 
-import org.w3c.dom.Text;
-
-import pens.lab.app.belajaractivity.FirstActivity;
 import pens.lab.app.belajaractivity.R;
 import pens.lab.app.belajaractivity.base.BaseFragment;
 import pens.lab.app.belajaractivity.modul.login.LoginActivity;

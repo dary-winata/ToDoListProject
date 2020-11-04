@@ -10,10 +10,11 @@ import android.widget.EditText;
 
 
 import androidx.annotation.Nullable;
-import pens.lab.app.belajaractivity.FirstActivity;
+
 import pens.lab.app.belajaractivity.R;
 import pens.lab.app.belajaractivity.base.BaseFragment;
 import pens.lab.app.belajaractivity.modul.profile.ProfileActivity;
+import pens.lab.app.belajaractivity.modul.todolist.ToDoListActivity;
 
 
 /**
@@ -66,12 +67,7 @@ public class LoginFragment extends BaseFragment<LoginActivity, LoginContract.Pre
 
     @Override
     public void redirectToProfile() {
-        String name = etEmail.getText().toString();
-        String password = etPassword.getText().toString();
-
-            Intent intent = new Intent(activity, ProfileActivity.class);
-            intent.putExtra("username", name);
-            intent.putExtra("password", password);
+            Intent intent = new Intent(activity, ToDoListActivity.class);
             startActivity(intent);
             activity.finish();
     }

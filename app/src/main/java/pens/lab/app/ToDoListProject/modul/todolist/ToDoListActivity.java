@@ -15,8 +15,8 @@ public class ToDoListActivity extends BaseFragmentHolderActivity{
     protected void initializeFragment() {
         initializeView();
 
-        btBack.setVisibility(View.GONE);
-        btOptionMenu.setVisibility(View.GONE);
+        btBack.setVisibility(View.VISIBLE);
+        btOptionMenu.setVisibility(View.VISIBLE);
 //        ivIcon.setImageResource(R.drawable.....);
         ivIcon.setVisibility(View.VISIBLE);
 
